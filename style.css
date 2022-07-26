@@ -68,6 +68,7 @@ body {
   font-size: 30px;
   padding: 0 20px;
   line-height: 60px;
+  cursor: pointer;
 
   display: none;
 }
@@ -111,5 +112,11 @@ body {
   }
   .nav-toggle {
     display: block;
+  }
+  .nav-menu_visible {
+    left: 0;
+  }
+  .nav-toggle:focus:not(focus-visible) {
+    outline: none;
   }
 }
